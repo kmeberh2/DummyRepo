@@ -1,0 +1,200 @@
+{
+  "startingRoom": "MatthewsStreet",
+  "endingRoom": "Siebel1314",
+  "player": {
+    "name": "Kevin",
+    "attack": 10.0,
+    "defense": 5.0,
+    "health": 25.0,
+    "maxHP": 25.0
+  },
+  "monsters": [
+    {
+      "name": "troll",
+      "attack": 5.0,
+      "defense": 5.0,
+      "health": 10.0,
+      "maxHP": 10.0
+    },
+    {
+      "name": "dragon",
+      "attack": 10.0,
+      "defense": 10.0,
+      "health": 20.0,
+      "maxHP": 20.0
+    },
+    {
+      "name": "ogre",
+      "attack": 15.0,
+      "defense": 5.0,
+      "health": 10.0,
+      "maxHP": 10.0
+    },
+    {
+      "name": "poison spider",
+      "attack": 5.0,
+      "defense": 5.0,
+      "health": 5.0,
+      "maxHP": 5.0
+    }
+  ],
+  "rooms": [
+    {
+      "name": "MatthewsStreet",
+      "description": "You are on Matthews, outside the Siebel Center",
+      "items": [{
+        "name" : "coin",
+        "damage" : 1.0
+      }],
+      "directions": [
+        {
+          "directionName": "East",
+          "room": "SiebelEntry"
+        }
+      ],
+      "monstersInRoom": [
+        "poison spider"
+      ]
+    },
+    {
+      "name": "SiebelEntry",
+      "description": "You are in the west entry of Siebel Center.  You can see the elevator, the ACM office, and hallways to the north and east.",
+      "items": [{
+        "name" : "rock",
+        "damage" : 2.0
+      }],
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "MatthewsStreet"
+        },
+        {
+          "directionName": "Northeast",
+          "room": "AcmOffice"
+        },
+        {
+          "directionName": "North",
+          "room": "SiebelNorthHallway"
+        },
+        {
+          "directionName": "East",
+          "room": "SiebelEastHallway"
+        }
+      ],
+      "monstersInRoom": [
+        "troll"
+      ]
+    },
+    {
+      "name": "AcmOffice",
+      "description": "You are in the ACM office.  There are lots of friendly ACM people.",
+      "items": [{
+        "name" : "heavy textbook",
+        "damage" : 3.0
+      }],
+      "directions": [
+        {
+          "directionName": "South",
+          "room": "SiebelEntry"
+        }
+      ]
+    },
+    {
+      "name": "SiebelNorthHallway",
+      "description": "You are in the north hallway.  You can see Siebel 1112 and the door toward NCSA.",
+      "items": [{
+        "name" : "chair",
+        "damage" : 4.0
+      }],
+      "directions": [
+        {
+          "directionName": "South",
+          "room": "SiebelEntry"
+        },
+        {
+          "directionName": "NorthEast",
+          "room": "Siebel1112"
+        }
+      ],
+      "monstersInRoom": [
+        "troll"
+      ]
+    },
+    {
+      "name": "Siebel1112",
+      "description": "You are in Siebel 1112.  There is space for two code reviews in this room.",
+      "items": [{
+        "name" : "stapler",
+        "damage" : 1.0
+      }],
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "SiebelNorthHallway"
+        }
+      ],
+      "monstersInRoom": [
+        "ogre"
+      ]
+    },
+    {
+      "name": "SiebelEastHallway",
+      "description": "You are in the east hallway.  You can see Einstein Bros' Bagels and a stairway.",
+      "items": [{
+        "name" : "boiling coffee",
+        "damage" : 6.0
+      }],
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "SiebelEntry"
+        },
+        {
+          "directionName": "South",
+          "room": "Siebel1314"
+        },
+        {
+          "directionName": "Down",
+          "room": "SiebelBasement"
+        }
+      ],
+      "monstersInRoom": [
+        "poison spider"
+      ]
+    },
+    {
+      "name": "Siebel1314",
+      "description": "You are in Siebel 1314.  There are happy CS 126 students doing a code review.",
+      "items": [{
+        "name" : "pen",
+        "damage" : 1.0
+      }],
+      "directions": [
+        {
+          "directionName": "North",
+          "room": "SiebelEastHallway"
+        }
+      ],
+      "monstersInRoom": [
+        "ogre"
+      ]
+    },
+    {
+      "name": "SiebelBasement",
+      "description": "You are in the basement of Siebel.  You see tables with students working and door to computer labs.",
+      "items": [{
+        "name" : "flashlight",
+        "damage" : 1.0
+      }],
+      "directions": [
+        {
+          "directionName": "Up",
+          "room": "SiebelEastHallway"
+        }
+      ],
+      "monstersInRoom": [
+        "dragon"
+      ]
+    }
+  ]
+}
