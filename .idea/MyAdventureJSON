@@ -27,28 +27,28 @@
       "name": "ogre",
       "attack": 150.0,
       "defense": 20.0,
-      "health": 125.0,
-      "maxHP": 125.0
+      "health": 175.0,
+      "maxHP": 175.0
     },
     {
       "name": "werewolf",
       "attack": 135.0,
       "defense": 50.0,
-      "health": 150.0,
-      "maxHP": 150.0
+      "health": 170.0,
+      "maxHP": 170.0
     },
     {
       "name": "cyclops",
       "attack": 130.0,
       "defense": 70.0,
-      "health": 150.0,
-      "maxHP": 150.0
+      "health": 180.0,
+      "maxHP": 180.0
     },
     {
       "name": "giant",
       "attack": 180.0,
       "defense": 75.0,
-      "health": 200.0,
+      "health": 500.0,
       "maxHP": 500.0
     },
     {
