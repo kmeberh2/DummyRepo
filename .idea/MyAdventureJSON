@@ -46,10 +46,10 @@
     },
     {
       "name": "giant",
-      "attack": 150.0,
+      "attack": 125.0,
       "defense": 75.0,
-      "health": 500.0,
-      "maxHP": 500.0
+      "health": 200.0,
+      "maxHP": 200.0
     },
     {
       "name": "dragon",
@@ -60,8 +60,8 @@
     },
     {
       "name": "kraken",
-      "attack": 100.0,
-      "defense": 100.0,
+      "attack": 300.0,
+      "defense": 200.0,
       "health": 1000.0,
       "maxHP": 1000.0
     }
