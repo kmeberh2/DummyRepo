@@ -25,31 +25,31 @@
     },
     {
       "name": "ogre",
-      "attack": 50.0,
+      "attack": 150.0,
       "defense": 20.0,
       "health": 125.0,
       "maxHP": 125.0
     },
     {
       "name": "werewolf",
-      "attack": 35.0,
+      "attack": 135.0,
       "defense": 50.0,
       "health": 150.0,
       "maxHP": 150.0
     },
     {
       "name": "cyclops",
-      "attack": 30.0,
+      "attack": 130.0,
       "defense": 70.0,
       "health": 150.0,
       "maxHP": 150.0
     },
     {
       "name": "giant",
-      "attack": 80.0,
+      "attack": 180.0,
       "defense": 75.0,
       "health": 200.0,
-      "maxHP": 200.0
+      "maxHP": 500.0
     },
     {
       "name": "dragon",
@@ -62,8 +62,8 @@
       "name": "kraken",
       "attack": 100.0,
       "defense": 100.0,
-      "health": 500.0,
-      "maxHP": 500.0
+      "health": 1000.0,
+      "maxHP": 1000.0
     }
   ],
   "rooms": [
