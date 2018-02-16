@@ -21,7 +21,7 @@
       "attack": 30.0,
       "defense": 20.0,
       "health": 100.0,
-      "maxHP": 100.0 
+      "maxHP": 100.0
     },
     {
       "name": "ogre",
@@ -46,7 +46,7 @@
     },
     {
       "name": "giant",
-      "attack": 180.0,
+      "attack": 150.0,
       "defense": 75.0,
       "health": 500.0,
       "maxHP": 500.0
