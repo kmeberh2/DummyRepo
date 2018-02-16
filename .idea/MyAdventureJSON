@@ -19,7 +19,7 @@
     {
       "name": "troll",
       "attack": 15.0,
-      "defense": 10.0,
+      "defense": 15.0,
       "health": 50.0,
       "maxHP": 50.0
     },
