@@ -39,7 +39,7 @@
     {
       "name": "india",
       "startPopulation": 1328,
-      "populationDensity": 1047,
+      "populationDensity": 500,
       "healthcareRating": 5
     },
     {
@@ -51,7 +51,7 @@
     {
       "name": "japan",
       "startPopulation": 127,
-      "populationDensity": 868,
+      "populationDensity": 400,
       "healthcareRating": 10
     }
   ]
