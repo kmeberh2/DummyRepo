@@ -1,0 +1,58 @@
+{
+  "diseases": [
+    {
+      "name": "ebola",
+      "detectability": 8,
+      "lethality": 9,
+      "communicability": 8,
+      "defense" : 6
+    },
+    {
+      "name": "influenza",
+      "detectability": 5,
+      "lethality": 5,
+      "communicability": 10,
+      "defense" : 3
+    },
+    {
+      "name": "smallpox",
+      "detectability": 8,
+      "lethality": 8,
+      "communicability": 7,
+      "defense" : 6
+    },
+    {
+      "name": "yellowfever",
+      "detectability": 5,
+      "lethality": 5,
+      "communicability": 9,
+      "defense" : 4
+    }
+  ],
+  "countries": [
+    {
+      "name": "usa",
+      "startPopulation": 323,
+      "populationDensity": 86,
+      "healthcareRating": 10
+    },
+    {
+      "name": "india",
+      "startPopulation": 1328,
+      "populationDensity": 1047,
+      "healthcareRating": 5
+    },
+    {
+      "name": "spain",
+      "startPopulation": 47,
+      "populationDensity": 238,
+      "healthcareRating": 8
+    },
+    {
+      "name": "japan",
+      "startPopulation": 127,
+      "populationDensity": 868,
+      "healthcareRating": 10
+    }
+  ]
+}
